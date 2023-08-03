@@ -4,7 +4,7 @@ div {
     align-items: center;
     height: 100vh;
 }
-a {
+#Button {
     color: black;
     font-size: 50px;
     text-decoration: none;
@@ -15,7 +15,7 @@ a {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     overflow: hidden;
 }
-a::before {
+#Button::before {
     content: '';
     background-color: goldenrod;
     height: 100%;
@@ -31,7 +31,7 @@ a::before {
     animation-timing-function:linear;
 }
 
-a:hover::before {
+#Button:hover::before {
     border-radius: 30px;
     transform: translate(0px);
 }

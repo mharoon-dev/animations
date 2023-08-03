@@ -1,4 +1,9 @@
-div:nth-child(1) {
+.container {
+    display: flex;
+}
+
+
+#LINEAR {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -29,7 +34,7 @@ div:nth-child(1) {
         transform: translate(500px);
     }
 }
-div:nth-child(2) {
+#EASE {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -60,7 +65,7 @@ div:nth-child(2) {
         transform: translate(500px);
     }
 }
-div:nth-child(3) {
+#EASE-IN{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -91,7 +96,7 @@ div:nth-child(3) {
         transform: translate(500px);
     }
 }
-div:nth-child(4) {
+#EASE-OUT {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -122,19 +127,19 @@ div:nth-child(4) {
         transform: translate(500px);
     }
 }
-div:nth-child(5) {
+
+#EASE-IN-OUT {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 150px;
-    height: 150px;
-    background-color: lightseagreen;
+    height: 150px;background-color: lightseagreen;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: bolder;
     font-size: larger;
     color: black;
     animation: 1s;
-    animation-name: movingbox5 ;
+    animation-name:movingbox5 ;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
     animation-direction: alternate;
@@ -148,9 +153,28 @@ div:nth-child(5) {
         transform: translate(0px);
     }
     to {
-        color: azure;
+        color: white;
         font-size: smaller;
         background-color: green;
         transform: translate(500px);
     }
+    
+}
+.pleasewait {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 500px;
+    margin-top: 250px;
+    animation-name: pleasewait;
+    animation-delay: 4s;
+    animation-duration: 1s;
+    animation-fill-mode:forwards;
+}
+@keyframes pleasewait {
+    from {
+        color: black;
+    }
+    to {
+        color: white;
+    }
+    
 }
