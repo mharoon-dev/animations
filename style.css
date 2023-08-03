@@ -1,0 +1,86 @@
+#one {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 150px;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    background-color: rgb(110, 197, 197);
+    transition-duration: 2s;
+    animation-timing-function: linear;
+    
+}
+#one:hover {
+    transform: translate(500px);
+    background-color: greenyellow;
+}
+#two {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 150px;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    background-color: rgb(125, 125, 75);
+    transition-duration: 2s;
+    animation-timing-function: ease;
+}
+#two:hover {
+    transform: translate(500px);
+    background-color: rgb(168, 74, 74);
+}
+#three {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 150px;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    background-color: green;
+    transition-duration: 2s;
+    animation-timing-function: ease-in;
+}
+#three:hover {
+    transform: translate(500px);
+    background-color: rgb(143, 143, 231);
+}
+#four {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 150px;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    background-color: rgb(143, 143, 231);
+    transition-duration: 2s;
+    animation-timing-function: ease-out;
+}
+#four:hover {
+    transform: translate(500px);
+    background-color: #f30be3;
+}
+#five {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 150px;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    background-color: #f30be3;
+    transition-duration: 2s;
+    animation-timing-function: ease-out;
+}
+#five:hover {
+    transform: translate(500px);
+    background-color: rgb(143, 143, 231);
+}

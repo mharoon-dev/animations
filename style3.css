@@ -1,0 +1,156 @@
+div:nth-child(1) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 150px;background-color: brown;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    font-size: larger;
+    color: black;
+    animation: 1s;
+    animation-name:movingbox1 ;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+    animation-delay: 4S;
+}
+@keyframes movingbox1 {
+    from {
+        color: black;
+        font-size: larger;
+        background-color: rgb(242, 5, 5);
+        transform: translate(0px);
+    }
+    to {
+        color: azure;
+        font-size: smaller;
+        background-color: rebeccapurple;
+        transform: translate(500px);
+    }
+}
+div:nth-child(2) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 150px;background-color: green;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    font-size: larger;
+    color: black;
+    animation: 1s;
+    animation-name:movingbox2 ;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+    animation-direction: alternate;
+    animation-delay: 4S;
+}
+@keyframes movingbox2 {
+    from {
+        color: black;
+        font-size: larger;
+        background-color: green;
+        transform: translate(0px);
+    }
+    to {
+        color: azure;
+        font-size: smaller;
+        background-color: blueviolet;
+        transform: translate(500px);
+    }
+}
+div:nth-child(3) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 150px;background-color: lightcoral;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    font-size: larger;
+    color: black;
+    animation: 1s;
+    animation-name:movingbox3 ;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    animation-direction: alternate;
+    animation-delay: 4S;
+}
+@keyframes movingbox3 {
+    from {
+        color: black;
+        font-size: larger;
+        background-color: lightcoral;
+        transform: translate(0px);
+    }
+    to {
+        color: azure;
+        font-size: smaller;
+        background-color: lightblue;
+        transform: translate(500px);
+    }
+}
+div:nth-child(4) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 150px;background-color: lightblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    font-size: larger;
+    color: black;
+    animation: 1s;
+    animation-name:movingbox4 ;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-out;
+    animation-direction: alternate;
+    animation-delay: 4S;
+}
+@keyframes movingbox4 {
+    from {
+        color: black;
+        font-size: larger;
+        background-color: lightblue;
+        transform: translate(0px);
+    }
+    to {
+        color: azure;
+        font-size: smaller;
+        background-color: blue;
+        transform: translate(500px);
+    }
+}
+div:nth-child(5) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 150px;
+    background-color: lightseagreen;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    font-size: larger;
+    color: black;
+    animation: 1s;
+    animation-name: movingbox5 ;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-direction: alternate;
+    animation-delay: 4S;
+}
+@keyframes movingbox5 {
+    from {
+        color: black;
+        font-size: larger;
+        background-color: lightseagreen;
+        transform: translate(0px);
+    }
+    to {
+        color: azure;
+        font-size: smaller;
+        background-color: green;
+        transform: translate(500px);
+    }
+}
